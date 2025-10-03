@@ -1,0 +1,28 @@
+{
+    "profile": {
+        "hp": 10,
+        "maxhp": 100,
+        "lvl": 1,
+        "xp": 0,
+        "equipped": [0, 1]
+    },
+
+
+
+    "0": {
+        "name": "Sword of Awesome",
+        "type": "sword",
+        "is one handed": true,
+        "damage": 10,
+        "durability": 100
+    },
+
+
+
+    "1": {
+        "name": "Helmet of Awesome",
+        "type": "Helmet",
+        "protection": 10,
+        "durability":100
+    }
+}
