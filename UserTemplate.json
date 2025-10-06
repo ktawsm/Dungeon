@@ -1,28 +1,36 @@
 {
     "profile": {
-        "hp": 10,
-        "maxhp": 100,
-        "lvl": 1,
-        "xp": 0,
+        "level": 1,
+        "experience": 0,
         "equipped": [0, 1]
+
     },
-
-
 
     "0": {
-        "name": "Sword of Awesome",
         "type": "sword",
         "is one handed": true,
+        "rarity": 1,
         "damage": 10,
-        "durability": 100
+        "durability": 100,
+        "enchantments": [1]
     },
 
-
-
     "1": {
-        "name": "Helmet of Awesome",
-        "type": "Helmet",
+        "type": "helmet",
         "protection": 10,
         "durability":100
+    },
+
+    "2": {
+        "type": "material",
+        "name": "iron",
+        "amount": 10
+    },
+
+    "3": {
+        "type": "material",
+        "name": "paper",
+        "amount": 10
     }
+    
 }
